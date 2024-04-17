@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formas-pagamento{
+    text-align: center;
+}
+.p {
+    text-align: center;
+    font-size: 13px;
+}
+.tabela {
+    background-color: red;
+    width: 100%;
+}
+.tabela tr td {
+    box-align: center;
+    width: 25%;
+}
+.tabela tr td a {
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tabela tr td img {
+    width: 50px; 
+}
+/* Fim da pagína index */
+
+.tabela-produtos {
+    border: 0;
+    width: 100%;
+    padding: 0; 
+}
+
+.produtos {
+    width: 20%;
+    vertical-align: top;
+}
+
