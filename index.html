@@ -3,44 +3,368 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nome da Loja</title>
-    <link rel="stylesheet" href="estilo.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="styles.css" >
+
+    <title>Portfólio - Olavo Henrique</title>
 </head>
 <body>
-    <!-- Inicio do MENU -->
-    <table class="tabela">
-        <tr>
-            
-            <td><a href="index.html"> <img src="./svg/logo_loja.svg" alt="logo"> </a></td>
-            <td><a href="produtos.html">Produtos</a></td>
-            <td><a href="lojas.html">Lojas Fisicas</a></td>
-            <td><a href="contatos.html">Contatos</a></td>
-        </tr>
-    </table>
-    <!-- Fim do MENU -->
-    <h2> <em>Seja bem Vindo(a)!</em></h2>
-    <p> Bem-vindo ao mundo da tecnologia gamer no nosso site, onde a emoção e a inovação se encontram! Somos uma plataforma dedicada a oferecer a você a mais ampla seleção de produtos eletrônicos especializados em jogos, garantindo que cada jogador encontre o equipamento perfeito para elevar sua experiência de jogo a novos patamares.
-        <br> <br>
-        Explore nosso catálogo, com das marcas mais renomadas do setor, desde os clássicos até as últimas novidades em hardware e acessórios. Temos tudo o que você precisa para montar seu setup dos sonhos.
-        <br> <br>
-        Nossa equipe de especialistas está sempre disponível para fornecer orientação personalizada e recomendações, ajudando você a encontrar os produtos ideais para atender às suas necessidades e orçamento. Além disso, estamos constantemente atualizando nosso site com análises detalhadas, guias de compra e conteúdo exclusivo, para mantê-lo informado sobre as últimas tendências e tecnologias no universo dos jogos eletrônicos.
-        <br> <br>
-        Com uma interface intuitiva e segura, oferecemos uma experiência de compra sem complicações, com opções de pagamento flexíveis e entrega rápida para que você possa começar a jogar o mais rápido possível.
-        <br> <br>
-        Prepare-se para entrar em ação e elevar seu jogo para o próximo nível com os produtos e serviços oferecidos em nosso site de eletrônicos gamers. A aventura começa aqui! <strong>eletronicos gamer!</strong></p>
-    
-    <br> <br> <br> <br> <br>
-    <br> <br> <br> <br> <br>
-    <br> <br> <br> <br> <br>
-    <br> <br> <br> <br> <br>
 
-    <div class="formas-pagamento">
-    <h4>
-        Formas de Pagamento: </h4>
-    <img src="./img/formas_de_pagamento.png" alt="formas de pagamento" width="40%">
-    </div>
+    <!-- Header/Cabeçalho -->
+    <section id="header">
+    <a class="header-title" href="/">
+      <h1>
+        Olavo.dev
+      </h1>
+    </a>
     
-     <p class="p">&copy; Olavin 03</p>
-    
+    <nav class="navbar">
+      <ul>
+        <li><a href="#person"> Home </a></li>
+        <li><a href="#about"> Sobre </a></li>
+        <li><a href="#projects"> Projetos </a></li>
+        <li><a href="#contacts"> Contatos </a></li> 
+      </ul>
+    </nav>
+
+    </section>
+    <!-- End Header/ Fim Cabeçalho -->
+
+    <!-- Person/Pessoa -->
+    <section id="person">
+      <div class="person-content">
+        <div class="person-name">
+            <h1> Olá, </h1>
+            <h1> Meu nome é </h1>
+            <h1 class="animation">Olavo H.M Peixoto</h1>
+        </div>
+        <div class="stacks-content">
+          <h3> Techs : </h3>
+
+          <div class="stacks">
+          <ul> 
+            <li>
+              <div data="HTML">
+              <img src="./svg/html.svg" alt="html.icon" >
+              </div>
+            </li>
+          </ul>
+          <ul> 
+            <li>
+              <div data="CSS">
+              <img src="./svg/css.svg" alt="css.icon" >
+              </div>
+            </li>
+          </ul>
+          <ul> 
+            <li>
+              <div data="JS">
+              <img src="./svg/javascript.svg" alt="javascript.icon" >
+              </div>
+            </li>
+          </ul>
+          <ul> 
+            <li>
+              <div data="GIT">
+              <img src="./svg/logo_git.svg" alt="javascript.icon" >
+              </div>
+            </li>
+          </ul>
+          <ul> 
+            <li>
+              <div data="MYSQL">
+              <img src="./svg/mysql.svg" alt="javascript.icon" >
+              </div>
+            </li>
+          </ul>
+          <ul> 
+            <li>
+              <div data="MongoDB">
+              <img src="./svg/mongodb.png" alt="javascript.icon" >
+              </div>
+            </li>
+          </ul>
+
+          </div>
+
+        </div>
+      </div>  
+
+
+      <div class="person-background">
+        <div class="wrapper-profile-photo">
+          <img class="profile-photo" src="./img/Design sem nome (2).jpg" alt="foto-olavo">
+        </div>
+      
+
+      <div class="links">
+        <a href="https://github.com/olavohenrique03" target="_blank">
+          <img src="./svg/logo.github.svg" alt="icon-github" title="Link GitHub">
+        </a>
+        <a href="https://www.instagram.com/olavo_hmp_dev/" target="_blank">
+          <img src="./svg/logo.insta.svg" alt="icon-insta" title="Link Instagram">
+        </a>
+        <a href="https://www.linkedin.com/in/olavo-henrique-marques-peixoto-255205248/" target="_blank">
+          <img src="./svg/logo.linkedin.svg" alt="icon-linkedin" title="Link Linkedin">
+        </a>
+      </div>
+      </div>
+    </section>
+    <!-- End Person/Fim Pessoa -->
+
+    <!-- About/Sobre -->
+    <section id="about">
+      <div class="background-about">
+        <div class="img-wrapper">
+          <img src="./img/imagem2.jpg" alt="imagem-notebook">
+        </div>
+      </div>
+
+      <div class="box-about">
+        <div class="section-subtitle">
+          <h2>
+            <p>💻</p>
+            <p> <span> Desenvolvedor </span> Front-end </p>
+          </h2>
+        </div>
+
+        <h3>
+          Sou um Desenvolvedor Front-end com foco em
+          <p> HTML, CSS e JavaScript</p>
+        </h3>
+
+        <h4>
+          Sou estudante atualmente no 7˚(sétimo) semestre de Sistemas de Informação na Faculdade Mogi das Cruzes, com conhecimento em desenvolvimento web, banco de dados, segurança da informação e ciclo de vida do projeto.
+          Meu foco atual é HTML, CSS e JavaScript, e participei de projetos acadêmicos que aprimoraram minhas habilidades em resolução de problemas e trabalho em equipe. 
+          Busco constantemente me especializar para acompanhar as tendências do mercado de TI. 
+          Sou organizado, proativo e estou em busca de oportunidades para aplicar meu conhecimento e crescer profissionalmente.
+        </h4>
+
+        <h4>
+          Abaixo está o meu <p>currículo</p> para download
+        </h4>
+
+        <div class="button-cta">
+          <a href="public/document/Currículo-Olavo.pdf" download="Currículo-Olavo.pdf" aria-label="Baixar curriculo Olavo" title="Baixar Currículo">
+             Currículo 
+          </a>
+        </div>
+        
+      </div>
+
+
+    </section>
+    <!-- End About/Fim Sobre -->
+
+    <!-- Projects/Projetos -->
+    <section id="projects">
+      <div class="projects-title">
+        <h2> Projetos <span>⚙️</span></h2>
+      </div>
+
+      <div class="container-project">
+        <div class="swiper mySwiper">
+          <!-- wrapper-projects -->
+  
+          <div class="swiper-wrapper">
+  
+            <!-- content-project -->
+            <div class="swiper-slide card-project">
+              <div class="image-project">
+                <a href="/">
+                  <img src="./img/Logo Life games.jpg" alt="img-conversor">
+                </a>
+              </div>
+            
+            <span> Life Games </span>
+  
+            <p> Esse projeto, simula um site de uma loja de artigos para jogos.</p>
+  
+              <div class="cta-project">
+                <a href="https://github.com/olavohenrique03/olavohenrique03-LifeGames.github.io/commit/06276d691d99cba8d44024a6b3955bb57fd6d0a4">
+                  Código
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://olavohenrique03.github.io/olavohenrique03-LifeGames.github.io/">
+                  Site
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div> 
+            </div>   
+            
+            <div class="swiper-slide card-project">
+              <div class="image-project">
+                <a href="/">
+                  <img src="./img/em-contrucao.jpg" alt="img-conversor">
+                </a>
+              </div>
+            
+            <span> Projeto </span>
+  
+            <p> Em breve mais projetos.</p>
+  
+              <div class="cta-project">
+                <a href="/">
+                  Código
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="/">
+                  Site
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div> 
+            </div>  
+  
+            <div class="swiper-slide card-project">
+              <div class="image-project">
+                <a href="/">
+                  <img src="./img/em-contrucao.jpg" alt="img-conversor">
+                </a>
+              </div>
+            
+            <span> Projeto </span>
+  
+            <p> Em breve mais projetos.</p>
+  
+              <div class="cta-project">
+                <a href="/">
+                  Código
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="/">
+                  Site
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div> 
+            </div>  
+  
+            <div class="swiper-slide card-project">
+              <div class="image-project">
+                <a href="/">
+                  <img src="./img/em-contrucao.jpg" alt="img-conversor">
+                </a>
+              </div>
+            
+            <span> Projeto </span>
+  
+            <p> Em breve mais projetos.</p>
+  
+              <div class="cta-project">
+                <a href="/">
+                  Código
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="/">
+                  Site
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div> 
+            </div>  
+  
+            <div class="swiper-slide card-project">
+              <div class="image-project">
+                <a href="/">
+                  <img src="./img/em-contrucao.jpg" alt="img-conversor">
+                </a>
+              </div>
+            
+            <span> Projeto </span>
+  
+            <p> Em breve mais projetos.</p>
+  
+              <div class="cta-project">
+                <a href="/">
+                  Código
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="/">
+                  Site
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div> 
+            </div>  
+  
+          </div>
+          
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+  
+  
+        </div>
+      </div>
+      
+      
+    </section>
+    <!-- End Projects/Fim Projeto -->
+
+    <!-- Contacts/Contatos -->
+    <section id="contacts">
+      <div class="contact-icon-content">
+        <h2> Contatos 📞</h2>
+      </div>
+
+      <div class="contact-icons-wrapper">
+        <div class="contact-icon-content">
+          <div class="contact-icon">
+            <i class="fa-solid fa-map-location-dot"></i>
+          </div>
+          <div class="contact-info">
+            <span> Localização </span>
+            <p> Aruja - SP </p>
+          </div>
+        </div>
+
+        <div class="contact-icons-wrapper">
+          <div class="contact-icon-content">
+            <div class="contact-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="contact-info">
+              <span> E-mail </span>
+              <a href="mailto:olavohmp@icloud.com">
+                olavohmp@icloud.com
+              </a>
+              
+            </div>
+          </div>
+
+          <div class="contact-icons-wrapper">
+            <div class="contact-icon-content">
+              <div class="contact-icon">
+                <i class="fa-solid fa-mobile"></i>
+              </div>
+              <div class="contact-info">
+                <span> Número de Telefone </span>
+                <p> (11) 94296-8626 </p>
+              </div>
+            </div>
+
+      </div>
+
+
+    </section>
+    <!-- End Contacts/Fim Contatos -->
+
+    <!-- Footer/Rodapé -->
+    <section id="footer">
+      <div class="container-footer">
+        <h2> Feito com ❤️ por </h2>
+        <h3> Olavo H.M Peixoto © 2024</h3>
+      </div>
+    </section>
+    <!-- End Footer/Fim Rodapé -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Link JavaScript -->
+    <script src="script.js"></script>
+
 </body>
 </html>
